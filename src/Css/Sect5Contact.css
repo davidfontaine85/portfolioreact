@@ -1,0 +1,53 @@
+.Sect5{
+    background-image: url('../Img/architecture-black-and-white-black-and-white-911738.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 60vh;
+}
+.arrowLink{
+    background-image: url('../Img/arrow1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+    width: 40vh;
+    color: white;
+    overflow: hidden;
+    animation: 2s ease-out 0s appear; 
+}
+@keyframes appear { from {height: 0px;} to {height: 40vh;}}
+
+.arrowLink h4{
+    margin-bottom: 1.2em;
+    font-weight: 900;
+    font-size: 1.8em;
+}
+.arrowLink a{
+    color: white;
+    text-decoration: none;
+}
+.arrowLink a:hover{
+    color: red;
+}
+.arrowLink ul{
+    list-style: none;
+    padding-inline-start: 0px;
+
+}
+.arrowLink li{
+    font-family: 'Cairo';
+    border: 1px solid white;
+    background-color: red;
+    border-radius: 15px;
+    width: 50%;
+    margin-bottom: 5px;
+}
+.arrowLink li:hover{
+    font-family: 'Cairo';
+    border: 1px solid red;
+    background-color: white;
+    border-radius: 15px;
+    width: 50%;
+    margin-bottom: 5px;
+    color: red;
+}

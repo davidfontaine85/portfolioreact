@@ -1,0 +1,50 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background: url(../Img/black-and-white-black-and-white-card-1496146\ .jpg) center;
+  min-height: 80vh;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-end;
+  font-size: calc(0.5px + 1vmin);
+  color: white;
+}
+
+h1{
+  font-family: 'Cairo';
+  margin: 15px;
+  letter-spacing: 0.8px;
+  overflow: hidden;
+  white-space: nowrap;
+  animation: App-title-appear 2s;
+}
+
+h2{
+  font-weight: 400;
+  font-size: large;
+  padding-top: 0.6em;
+}
+
+h2, p{
+  font-family: 'Baloo Tamma 2';
+}
+
+body{
+  background-color: #1F1F1F;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-title-appear {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 33.3333%;
+  }
+}
